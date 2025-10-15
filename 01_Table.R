@@ -11,3 +11,6 @@ source("03_plot_distro.R")
 # Make table! -------------------------------------------------------------
 gt_group(.list = make_gt(dat))
 # since make_gt returns a list, we do it like this and group the different positions together
+
+# To save locally, uncomment next line!
+# gtsave(data = gt_group(.list = make_gt(dat)), filename = "output.html")
